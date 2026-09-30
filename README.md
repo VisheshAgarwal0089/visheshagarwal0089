@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/depth-map.svg" alt="Vishesh Agarwal technical profile board" width="100%" />
+  <img src="./assets/depth-map.svg" alt="Vishesh Agarwal technical systems dossier" width="100%" />
 </p>
 
 ## Selected systems
@@ -9,9 +9,23 @@
 - [leetcode_problems](https://github.com/VisheshAgarwal0089/leetcode_problems) — Java + SQL problem-solving stream indexed automatically by LeetGitSync.
 - [CredVault / CertiSync](https://github.com/VisheshAgarwal0089/CredVault-AI-Powered-Certificate-Deduplicator-Repo-Streamliner) — architecture blueprint for local certificate deduplication and GitHub synchronization.
 
-## Notes
+## Stack / platforms
 
-I separate shipped systems from active study. Current depth work: operating systems, computer networks, backend internals, distributed systems, and database internals.
+```text
+languages     Java · JavaScript · Python · SQL
+web/runtime   React · Vite · Tailwind · Node.js · Express · WXT · MV3
+data/ml       SQLite · MongoDB · Pandas · NumPy · scikit-learn · TensorFlow · PyTorch
+platforms     Linux · GitHub · Vercel · Railway · AWS · GCP
+tooling       Git · Postman · Power BI · Excel
+```
+
+## Current direction
+
+```text
+building      browser tooling · reconciliation systems · automation
+studying      operating systems · computer networks · backend internals
+deepening     distributed systems · database internals · protocols
+```
 
 ## Links
 
