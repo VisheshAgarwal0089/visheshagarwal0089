@@ -1,0 +1,93 @@
+<svg width="1280" height="620" viewBox="0 0 1280 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Vishesh Agarwal — computing depth map</title>
+<desc id="desc">A technical map showing how Vishesh's projects cross application, browser runtime, backend, data, network and infrastructure layers.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070b10"/>
+    <stop offset="0.55" stop-color="#0b1118"/>
+    <stop offset="1" stop-color="#070a0e"/>
+  </linearGradient>
+  <linearGradient id="lineA" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#42d392"/>
+    <stop offset="1" stop-color="#58a6ff"/>
+  </linearGradient>
+  <linearGradient id="lineB" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ff9f43"/>
+    <stop offset="1" stop-color="#d2a8ff"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+
+<rect width="1280" height="620" rx="18" fill="url(#bg)"/>
+<rect x="1" y="1" width="1278" height="618" rx="17" fill="none" stroke="#1f2a36"/>
+
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <text x="44" y="58" font-size="15" fill="#6e7f91">~/profile/depth-map</text>
+  <text x="44" y="98" font-size="32" font-weight="700" fill="#f0f6fc" letter-spacing="2">VISHESH AGARWAL</text>
+  <text x="44" y="126" font-size="15" fill="#9fb0c0">build systems · inspect abstractions · document what is underneath</text>
+
+  <text x="940" y="56" font-size="12" fill="#6e7f91">MODE</text>
+  <text x="940" y="80" font-size="14" fill="#42d392">BUILD / TRACE / LEARN</text>
+
+  <line x1="44" y1="154" x2="1236" y2="154" stroke="#18222d"/>
+
+  <text x="44" y="190" font-size="13" fill="#6e7f91">COMPUTING LAYERS</text>
+  <text x="640" y="190" font-size="13" fill="#6e7f91">PROJECT TRAJECTORIES</text>
+
+  <!-- layers -->
+  <g>
+    <rect x="44" y="212" width="520" height="48" rx="8" fill="#0d141c" stroke="#20303e"/>
+    <text x="64" y="232" font-size="12" fill="#6e7f91">L0</text><text x="106" y="243" font-size="17" fill="#e6edf3">SURFACE / PRODUCT</text>
+    <text x="350" y="243" font-size="12" fill="#7f93a5">React · UI · workflows</text>
+
+    <rect x="44" y="270" width="520" height="48" rx="8" fill="#0d141c" stroke="#20303e"/>
+    <text x="64" y="290" font-size="12" fill="#6e7f91">L1</text><text x="106" y="301" font-size="17" fill="#e6edf3">BROWSER / RUNTIME</text>
+    <text x="350" y="301" font-size="12" fill="#7f93a5">MV3 · workers · local state</text>
+
+    <rect x="44" y="328" width="520" height="48" rx="8" fill="#0d141c" stroke="#20303e"/>
+    <text x="64" y="348" font-size="12" fill="#6e7f91">L2</text><text x="106" y="359" font-size="17" fill="#e6edf3">BACKEND / CONTROL</text>
+    <text x="350" y="359" font-size="12" fill="#7f93a5">Node · Express · auth · queues</text>
+
+    <rect x="44" y="386" width="520" height="48" rx="8" fill="#0d141c" stroke="#20303e"/>
+    <text x="64" y="406" font-size="12" fill="#6e7f91">L3</text><text x="106" y="417" font-size="17" fill="#e6edf3">DATA / CONSISTENCY</text>
+    <text x="350" y="417" font-size="12" fill="#7f93a5">SQLite · SQL · audit state</text>
+
+    <rect x="44" y="444" width="520" height="48" rx="8" fill="#0d141c" stroke="#20303e"/>
+    <text x="64" y="464" font-size="12" fill="#6e7f91">L4</text><text x="106" y="475" font-size="17" fill="#e6edf3">NETWORK / PROTOCOLS</text>
+    <text x="350" y="475" font-size="12" fill="#7f93a5">HTTP · DNS · TLS · APIs</text>
+
+    <rect x="44" y="502" width="520" height="48" rx="8" fill="#0d141c" stroke="#20303e"/>
+    <text x="64" y="522" font-size="12" fill="#6e7f91">L5</text><text x="106" y="533" font-size="17" fill="#e6edf3">INFRA / OS</text>
+    <text x="350" y="533" font-size="12" fill="#7f93a5">Linux · Railway · Vercel · cloud</text>
+  </g>
+
+  <!-- trajectories -->
+  <g>
+    <path d="M650 235 C760 235 735 350 830 350 C925 350 915 410 1040 410 C1110 410 1120 525 1200 525"
+          fill="none" stroke="url(#lineA)" stroke-width="3" filter="url(#glow)"/>
+    <circle cx="650" cy="235" r="5" fill="#42d392"/><circle cx="830" cy="350" r="5" fill="#55b7d9"/><circle cx="1040" cy="410" r="5" fill="#58a6ff"/><circle cx="1200" cy="525" r="5" fill="#58a6ff"/>
+    <text x="664" y="224" font-size="15" font-weight="700" fill="#e6edf3">SettleWise AI</text>
+    <text x="664" y="246" font-size="12" fill="#8ea0b1">reconciliation → evidence → SQLite → deployed API</text>
+
+    <path d="M650 294 C760 294 760 294 840 294 C955 294 925 465 1045 465"
+          fill="none" stroke="url(#lineB)" stroke-width="3" filter="url(#glow)"/>
+    <circle cx="650" cy="294" r="5" fill="#ff9f43"/><circle cx="840" cy="294" r="5" fill="#e78c74"/><circle cx="1045" cy="465" r="5" fill="#d2a8ff"/>
+    <text x="664" y="283" font-size="15" font-weight="700" fill="#e6edf3">LeetGitSync</text>
+    <text x="664" y="305" font-size="12" fill="#8ea0b1">content scripts → background worker → GitHub API</text>
+
+    <path d="M650 410 C785 410 780 410 925 410"
+          fill="none" stroke="#7ee787" stroke-width="2" stroke-dasharray="7 6"/>
+    <circle cx="650" cy="410" r="4" fill="#7ee787"/><circle cx="925" cy="410" r="4" fill="#7ee787"/>
+    <text x="664" y="399" font-size="15" font-weight="700" fill="#e6edf3">Algorithm stream</text>
+    <text x="664" y="421" font-size="12" fill="#8ea0b1">Java + SQL solutions indexed by LeetGitSync</text>
+
+    <path d="M650 526 C780 526 795 560 925 560"
+          fill="none" stroke="#8b949e" stroke-width="2" stroke-dasharray="4 7"/>
+    <text x="664" y="515" font-size="15" font-weight="700" fill="#c9d1d9">Digging deeper</text>
+    <text x="664" y="537" font-size="12" fill="#8ea0b1">OS internals · distributed systems · databases · protocols</text>
+  </g>
+
+  <text x="44" y="588" font-size="12" fill="#526273">verified builds above · learning direction below · no fake mastery</text>
+  <text x="1058" y="588" font-size="12" fill="#526273">depth-map:v2</text>
+</g>
+</svg>
