@@ -1,93 +1,88 @@
-<svg width="1280" height="620" viewBox="0 0 1280 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-<title id="title">Vishesh Agarwal — computing depth map</title>
-<desc id="desc">A technical map showing how Vishesh's projects cross application, browser runtime, backend, data, network and infrastructure layers.</desc>
+<svg width="1280" height="980" viewBox="0 0 1280 980" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Vishesh Agarwal technical profile board</title>
+<desc id="desc">A dark technical profile board showing current engineering focus, verified projects, depth map, stack and learning direction.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#070b10"/>
-    <stop offset="0.55" stop-color="#0b1118"/>
-    <stop offset="1" stop-color="#070a0e"/>
-  </linearGradient>
-  <linearGradient id="lineA" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#42d392"/>
-    <stop offset="1" stop-color="#58a6ff"/>
-  </linearGradient>
-  <linearGradient id="lineB" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#ff9f43"/>
-    <stop offset="1" stop-color="#d2a8ff"/>
-  </linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06090d"/><stop offset=".55" stop-color="#0b1118"/><stop offset="1" stop-color="#070a0e"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
+<rect width="1280" height="980" rx="18" fill="url(#bg)"/>
+<rect x="1" y="1" width="1278" height="978" rx="17" fill="none" stroke="#1e2935"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <text x="40" y="42" fill="#647586" font-size="13">~/profile :: technical field manual</text>
+  <text x="40" y="92" fill="#f0f6fc" font-size="34" font-weight="700" letter-spacing="3">VISHESH AGARWAL</text>
+  <text x="40" y="124" fill="#9fb0c0" font-size="15">build systems · trace execution paths · keep digging below the abstraction</text>
 
-<rect width="1280" height="620" rx="18" fill="url(#bg)"/>
-<rect x="1" y="1" width="1278" height="618" rx="17" fill="none" stroke="#1f2a36"/>
+  <rect x="40" y="154" width="450" height="150" rx="12" fill="#0b1219" stroke="#20303e"/>
+  <text x="62" y="183" fill="#647586" font-size="12">CURRENT SIGNAL</text>
+  <text x="62" y="218" fill="#3ddc97" font-size="14">BUILD</text>
+  <text x="132" y="218" fill="#d3dde6" font-size="14">browser tooling · reconciliation · automation</text>
+  <text x="62" y="249" fill="#58a6ff" font-size="14">TRACE</text>
+  <text x="132" y="249" fill="#d3dde6" font-size="14">HTTP · auth · state · queues · deployment</text>
+  <text x="62" y="280" fill="#d2a8ff" font-size="14">LEARN</text>
+  <text x="132" y="280" fill="#d3dde6" font-size="14">OS · distributed systems · DB internals</text>
 
-<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-  <text x="44" y="58" font-size="15" fill="#6e7f91">~/profile/depth-map</text>
-  <text x="44" y="98" font-size="32" font-weight="700" fill="#f0f6fc" letter-spacing="2">VISHESH AGARWAL</text>
-  <text x="44" y="126" font-size="15" fill="#9fb0c0">build systems · inspect abstractions · document what is underneath</text>
-
-  <text x="940" y="56" font-size="12" fill="#6e7f91">MODE</text>
-  <text x="940" y="80" font-size="14" fill="#42d392">BUILD / TRACE / LEARN</text>
-
-  <line x1="44" y1="154" x2="1236" y2="154" stroke="#18222d"/>
-
-  <text x="44" y="190" font-size="13" fill="#6e7f91">COMPUTING LAYERS</text>
-  <text x="640" y="190" font-size="13" fill="#6e7f91">PROJECT TRAJECTORIES</text>
-
-  <!-- layers -->
-  <g>
-    <rect x="44" y="212" width="520" height="48" rx="8" fill="#0d141c" stroke="#20303e"/>
-    <text x="64" y="232" font-size="12" fill="#6e7f91">L0</text><text x="106" y="243" font-size="17" fill="#e6edf3">SURFACE / PRODUCT</text>
-    <text x="350" y="243" font-size="12" fill="#7f93a5">React · UI · workflows</text>
-
-    <rect x="44" y="270" width="520" height="48" rx="8" fill="#0d141c" stroke="#20303e"/>
-    <text x="64" y="290" font-size="12" fill="#6e7f91">L1</text><text x="106" y="301" font-size="17" fill="#e6edf3">BROWSER / RUNTIME</text>
-    <text x="350" y="301" font-size="12" fill="#7f93a5">MV3 · workers · local state</text>
-
-    <rect x="44" y="328" width="520" height="48" rx="8" fill="#0d141c" stroke="#20303e"/>
-    <text x="64" y="348" font-size="12" fill="#6e7f91">L2</text><text x="106" y="359" font-size="17" fill="#e6edf3">BACKEND / CONTROL</text>
-    <text x="350" y="359" font-size="12" fill="#7f93a5">Node · Express · auth · queues</text>
-
-    <rect x="44" y="386" width="520" height="48" rx="8" fill="#0d141c" stroke="#20303e"/>
-    <text x="64" y="406" font-size="12" fill="#6e7f91">L3</text><text x="106" y="417" font-size="17" fill="#e6edf3">DATA / CONSISTENCY</text>
-    <text x="350" y="417" font-size="12" fill="#7f93a5">SQLite · SQL · audit state</text>
-
-    <rect x="44" y="444" width="520" height="48" rx="8" fill="#0d141c" stroke="#20303e"/>
-    <text x="64" y="464" font-size="12" fill="#6e7f91">L4</text><text x="106" y="475" font-size="17" fill="#e6edf3">NETWORK / PROTOCOLS</text>
-    <text x="350" y="475" font-size="12" fill="#7f93a5">HTTP · DNS · TLS · APIs</text>
-
-    <rect x="44" y="502" width="520" height="48" rx="8" fill="#0d141c" stroke="#20303e"/>
-    <text x="64" y="522" font-size="12" fill="#6e7f91">L5</text><text x="106" y="533" font-size="17" fill="#e6edf3">INFRA / OS</text>
-    <text x="350" y="533" font-size="12" fill="#7f93a5">Linux · Railway · Vercel · cloud</text>
+  <g transform="translate(535 145)">
+    <path d="M110 10 L385 10 L468 53 L193 53 Z" fill="#0f1822" stroke="#2a3a49"/>
+    <path d="M90 64 L405 64 L496 111 L181 111 Z" fill="#0d1620" stroke="#2a3a49"/>
+    <path d="M68 123 L427 123 L522 173 L163 173 Z" fill="#0b141d" stroke="#2a3a49"/>
+    <path d="M44 186 L451 186 L550 239 L143 239 Z" fill="#09121a" stroke="#2a3a49"/>
+    <path d="M111 10 L385 10" stroke="#3ddc97" stroke-width="2" filter="url(#glow)"/>
+    <path d="M90 64 L405 64" stroke="#58a6ff" stroke-width="2"/>
+    <path d="M68 123 L427 123" stroke="#d2a8ff" stroke-width="2"/>
+    <path d="M44 186 L451 186" stroke="#ff9f43" stroke-width="2"/>
+    <text x="224" y="36" fill="#dbe5ed" font-size="12">APPLICATION</text>
+    <text x="220" y="92" fill="#c0ccd6" font-size="12">RUNTIME</text>
+    <text x="208" y="153" fill="#c0ccd6" font-size="12">BACKEND + DATA</text>
+    <text x="187" y="219" fill="#c0ccd6" font-size="12">NETWORK + INFRA</text>
   </g>
 
-  <!-- trajectories -->
-  <g>
-    <path d="M650 235 C760 235 735 350 830 350 C925 350 915 410 1040 410 C1110 410 1120 525 1200 525"
-          fill="none" stroke="url(#lineA)" stroke-width="3" filter="url(#glow)"/>
-    <circle cx="650" cy="235" r="5" fill="#42d392"/><circle cx="830" cy="350" r="5" fill="#55b7d9"/><circle cx="1040" cy="410" r="5" fill="#58a6ff"/><circle cx="1200" cy="525" r="5" fill="#58a6ff"/>
-    <text x="664" y="224" font-size="15" font-weight="700" fill="#e6edf3">SettleWise AI</text>
-    <text x="664" y="246" font-size="12" fill="#8ea0b1">reconciliation → evidence → SQLite → deployed API</text>
+  <line x1="40" y1="329" x2="1240" y2="329" stroke="#17212b"/>
+  <text x="40" y="366" fill="#647586" font-size="12">VERIFIED SYSTEMS</text>
 
-    <path d="M650 294 C760 294 760 294 840 294 C955 294 925 465 1045 465"
-          fill="none" stroke="url(#lineB)" stroke-width="3" filter="url(#glow)"/>
-    <circle cx="650" cy="294" r="5" fill="#ff9f43"/><circle cx="840" cy="294" r="5" fill="#e78c74"/><circle cx="1045" cy="465" r="5" fill="#d2a8ff"/>
-    <text x="664" y="283" font-size="15" font-weight="700" fill="#e6edf3">LeetGitSync</text>
-    <text x="664" y="305" font-size="12" fill="#8ea0b1">content scripts → background worker → GitHub API</text>
+  <rect x="40" y="390" width="575" height="200" rx="12" fill="#0b1219" stroke="#214032"/>
+  <text x="64" y="425" fill="#f0f6fc" font-size="21" font-weight="700">SETTLEWISE AI</text>
+  <text x="64" y="450" fill="#8fa1b2" font-size="12">verification-first settlement reconciliation</text>
+  <text x="64" y="485" fill="#7ee787" font-size="12">INGEST → MATCH+GATES → SQLITE → REVIEW → AUDIT</text>
+  <text x="64" y="518" fill="#c6d1da" font-size="12">123/146 auto · 84.25% recall · 100% precision · 0 false positives</text>
+  <text x="64" y="547" fill="#8395a6" font-size="12">integer-paise calculations · deterministic evidence · SHA-256 audit chain</text>
+  <text x="64" y="574" fill="#5e7080" font-size="11">React 19 · Express 5 · SQLite · Vercel · Railway</text>
 
-    <path d="M650 410 C785 410 780 410 925 410"
-          fill="none" stroke="#7ee787" stroke-width="2" stroke-dasharray="7 6"/>
-    <circle cx="650" cy="410" r="4" fill="#7ee787"/><circle cx="925" cy="410" r="4" fill="#7ee787"/>
-    <text x="664" y="399" font-size="15" font-weight="700" fill="#e6edf3">Algorithm stream</text>
-    <text x="664" y="421" font-size="12" fill="#8ea0b1">Java + SQL solutions indexed by LeetGitSync</text>
+  <rect x="635" y="390" width="605" height="200" rx="12" fill="#0b1219" stroke="#263c55"/>
+  <text x="659" y="425" fill="#f0f6fc" font-size="21" font-weight="700">LEETGITSYNC</text>
+  <text x="659" y="450" fill="#8fa1b2" font-size="12">browser-only LeetCode → GitHub synchronization</text>
+  <text x="659" y="485" fill="#58a6ff" font-size="12">PAGE → CONTENT BRIDGE → MV3 WORKER → QUEUE → GITHUB</text>
+  <text x="659" y="518" fill="#c6d1da" font-size="12">WXT · Manifest V3 · React · deterministic paths · SHA-aware writes</text>
+  <text x="659" y="547" fill="#8395a6" font-size="12">capture / queue / writer / README / foundation tests</text>
+  <text x="659" y="574" fill="#5e7080" font-size="11">Brave · Chrome · Edge · Firefox builds</text>
 
-    <path d="M650 526 C780 526 795 560 925 560"
-          fill="none" stroke="#8b949e" stroke-width="2" stroke-dasharray="4 7"/>
-    <text x="664" y="515" font-size="15" font-weight="700" fill="#c9d1d9">Digging deeper</text>
-    <text x="664" y="537" font-size="12" fill="#8ea0b1">OS internals · distributed systems · databases · protocols</text>
-  </g>
+  <rect x="40" y="612" width="360" height="143" rx="12" fill="#0b1219" stroke="#3b3151"/>
+  <text x="62" y="645" fill="#f0f6fc" font-size="17" font-weight="700">ALGORITHM STREAM</text>
+  <text x="62" y="674" fill="#d2a8ff" font-size="12">Java + SQL solutions</text>
+  <text x="62" y="701" fill="#9aaab8" font-size="12">topic-indexed automatically</text>
+  <text x="62" y="728" fill="#667888" font-size="11">LeetGitSync output surface</text>
 
-  <text x="44" y="588" font-size="12" fill="#526273">verified builds above · learning direction below · no fake mastery</text>
-  <text x="1058" y="588" font-size="12" fill="#526273">depth-map:v2</text>
+  <rect x="420" y="612" width="390" height="143" rx="12" fill="#0b1219" stroke="#4a3925"/>
+  <text x="442" y="645" fill="#f0f6fc" font-size="17" font-weight="700">CERTISYNC / CREDVAULT</text>
+  <text x="442" y="674" fill="#ff9f43" font-size="12">architecture blueprint</text>
+  <text x="442" y="701" fill="#9aaab8" font-size="12">OCR → perceptual hash → SQLite → sync</text>
+  <text x="442" y="728" fill="#667888" font-size="11">design documentation, not shipped code</text>
+
+  <rect x="830" y="612" width="410" height="143" rx="12" fill="#0b1219" stroke="#253341"/>
+  <text x="852" y="645" fill="#f0f6fc" font-size="17" font-weight="700">DEPTH MAP</text>
+  <text x="852" y="674" fill="#7ee787" font-size="12">surface     React · product flows</text>
+  <text x="852" y="699" fill="#58a6ff" font-size="12">runtime     MV3 · workers · local state</text>
+  <text x="852" y="724" fill="#d2a8ff" font-size="12">below       HTTP · SQL · Linux · infra</text>
+
+  <line x1="40" y1="782" x2="1240" y2="782" stroke="#17212b"/>
+  <text x="40" y="817" fill="#647586" font-size="12">TECHNICAL SIGNAL</text>
+
+  <text x="40" y="851" fill="#3ddc97" font-size="13" font-weight="700">USE</text>
+  <text x="94" y="851" fill="#cbd5df" font-size="12">Java · JavaScript · Python · SQL · React · Node · Express · SQLite · Linux</text>
+  <text x="40" y="881" fill="#58a6ff" font-size="13" font-weight="700">TRACE</text>
+  <text x="94" y="881" fill="#cbd5df" font-size="12">auth flows · workers · retries · indexes · HTTP · DNS · proxies · deployment</text>
+  <text x="40" y="911" fill="#d2a8ff" font-size="13" font-weight="700">DEEPEN</text>
+  <text x="108" y="911" fill="#cbd5df" font-size="12">operating systems · distributed systems · database internals · protocols</text>
+
+  <text x="40" y="952" fill="#4f6070" font-size="11">repository evidence first · no fake mastery · no third-party trackers · profile-board:v3</text>
 </g>
 </svg>
