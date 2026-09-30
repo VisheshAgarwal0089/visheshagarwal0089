@@ -78,14 +78,23 @@
 
 ## 💻 Tech Stack
 
-```text
-Frontend       JavaScript · React · HTML · CSS · Tailwind CSS · Bootstrap · Vite
-Backend        Node.js · Express.js · Java
-Databases      MongoDB · SQLite · MySQL
-Data / ML      Python · Pandas · NumPy · scikit-learn · TensorFlow · PyTorch · Keras · Matplotlib
-Cloud / Infra  AWS · Google Cloud · Linux · Vercel · Railway · Firebase · Docker
-Tooling        Git · GitHub · GitHub Actions · Postman · Power BI · Excel
-```
+### 🌐 Frontend
+`JavaScript` · `React` · `HTML5` · `CSS3` · `Tailwind CSS` · `Bootstrap` · `Vite`
+
+### ⚙️ Backend & APIs
+`Node.js` · `Express.js` · `Java` · `REST APIs` · `JWT`
+
+### 🗄️ Databases & Data
+`MongoDB` · `SQLite` · `MySQL` · `Pandas` · `NumPy`
+
+### 🤖 AI & Machine Learning
+`Python` · `scikit-learn` · `TensorFlow` · `PyTorch` · `Keras` · `Matplotlib`
+
+### ☁️ Cloud & Infrastructure
+`AWS` · `Google Cloud` · `Linux` · `Vercel` · `Railway` · `Firebase` · `Docker`
+
+### 🛠️ Developer Tooling
+`Git` · `GitHub` · `GitHub Actions` · `Postman` · `Power BI` · `Excel`
 
 ---
 
