@@ -24,7 +24,7 @@ jobs:
           username: VisheshAgarwal0089
           output_path: assets/trophies.svg
           token: ${{ github.token }}
-          theme: discord
+          theme: tokyonight
 
       - name: Commit trophy SVG
         run: |
