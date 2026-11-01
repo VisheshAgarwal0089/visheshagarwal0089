@@ -1,126 +1,169 @@
+<!-- PROFILE HEADER -->
+
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,48:161B22,100:312E81&height=220&section=header&text=Vishesh%20Agarwal&fontSize=62&fontColor=F0F6FC&fontAlignY=40&desc=Builder%20•%20Problem%20Solver%20•%20Lifelong%20Learner&descAlignY=62&descSize=19&animation=fadeIn&stroke=A78BFA&strokeWidth=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:151922,45:252C3A,100:806747&text=VISHESH%20AGARWAL&fontColor=F0E8D8&fontSize=48&fontAlignY=38&desc=ENGINEERING%20%7C%20EXPLORATION%20%7C%20BUILDING&descSize=15&descAlignY=59&font=Rajdhani" width="100%" />
 
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1000&color=C4B5FD&center=true&vCenter=true&random=false&width=620&lines=Full+Stack+Developer+%F0%9F%9A%80;ML+%26+AI+Enthusiast+%F0%9F%A4%96;Open+Source+Contributor+%F0%9F%8C%9F;I+break+things+to+rebuild+them+better+%F0%9F%94%A7;Always+learning%2C+always+building+%F0%9F%94%A5" alt="Typing SVG" />
-</a>
+<br/>
 
-<br/><br/>
+### SOFTWARE DEVELOPER · TECH ENTHUSIAST · LIFELONG LEARNER
 
-<!-- Social Badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/visheshagarwal0089)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aga.v.0089@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/visheshagarwal0089)
-[![Profile Views](https://komarev.com/ghpvc/?username=visheshagarwal0089&style=for-the-badge&color=6D28D9&label=PROFILE+VIEWS)](https://github.com/visheshagarwal0089)
+[![GitHub](https://img.shields.io/badge/GitHub-Explore%20my%20work-252525?style=for-the-badge&logo=github&logoColor=C6A66B)](https://github.com/VisheshAgarwal0089)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-252525?style=for-the-badge&logo=linkedin&logoColor=70A9D8)](https://linkedin.com/in/visheshagarwal0089)
 
 </div>
 
 ---
 
-## 🧠 About Me
+## 01 — THE PERSON BEHIND THE CODE
 
-```yaml
-👤  name       : Vishesh Agarwal
-🌍  location   : India 🇮🇳
-💼  role       : Full Stack Developer & ML Enthusiast
-🔨  building   : Practical, real-world solutions
-📚  learning   : Cleaner code, better patterns, emerging tools
-🤝  open_to    : Meaningful collaborations & creative projects
-⚡  fun_fact   : "I break things apart just to rebuild them better 🔧"
+I'm Vishesh, a Computer Science student interested in understanding how technology works and using that understanding to build practical software.
+
+My interests span software engineering, backend systems, AI, automation and cloud technologies. I enjoy experimenting across domains, learning by building, and turning ideas into working projects.
+
+- Pursuing B.Tech in CSE (AI & ML) at KIET Group of Institutions.
+- Practising Data Structures and Algorithms in Java.
+- Exploring backend architecture, APIs and databases.
+- Building developer tools and practical applications.
+- Interested in open-source collaboration.
+
+## 02 — MY EXPLORATION MAP
+
+Different domains. Connected ideas. Practical outcomes.
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/01-SOFTWARE%20ENGINEERING-C6A66B?style=for-the-badge" />
+<img src="https://img.shields.io/badge/02-ARTIFICIAL%20INTELLIGENCE-B99AD9?style=for-the-badge" />
+<img src="https://img.shields.io/badge/03-BACKEND%20%26%20SYSTEMS-78B6A0?style=for-the-badge" />
+<img src="https://img.shields.io/badge/04-CLOUD%20%26%20AUTOMATION-D99A68?style=for-the-badge" />
+<img src="https://img.shields.io/badge/05-OPEN%20SOURCE-8DA9D0?style=for-the-badge" />
+
+</div>
+
+```text
+                         CURIOSITY
+                             |
+          +------------------+------------------+
+          |                  |                  |
+     SOFTWARE             INTELLIGENT         SYSTEMS &
+     ENGINEERING          APPLICATIONS        INFRASTRUCTURE
+          |                  |                  |
+     Web Development       AI / ML            Backend & APIs
+     Browser Extensions    Data Projects      Databases
+     Automation            AI Integration     Cloud & Deployment
+          |                  |                  |
+          +------------------+------------------+
+                             |
+                      PRACTICAL PROJECTS
+                             |
+                   BUILD  /  TEST  /  IMPROVE
 ```
 
----
+## 03 — SELECTED PROJECTS
 
-## 🚀 What I'm Working On
+### 01. LeetGitSync
 
-- 🏗️ Building full-stack apps with **React + Node.js**
-- 🤖 Experimenting with **ML models** for real-world use cases
-- 🌱 Sharpening skills in **system design** and **clean architecture**
-- 🔍 Exploring **AI-powered tooling** and developer workflows
+[![Project](https://img.shields.io/badge/DEVELOPER%20TOOLING-LeetGitSync-C6A66B?style=flat-square)](https://github.com/VisheshAgarwal0089/leetgitsync)
 
----
+**Your LeetCode progress, organised automatically on GitHub.**
 
-## 🐍 Watch My Contributions Get Eaten
+A browser extension that syncs accepted LeetCode submissions to a structured GitHub repository.
+
+- Built using WXT, JavaScript and React.
+- GitHub authentication through Device Flow.
+- Automatically organises solutions into problem-specific files.
+- Generates structured solution folders and README details.
+- Supports Chrome, Edge, Brave and Firefox.
+
+[VIEW SOURCE CODE →](https://github.com/VisheshAgarwal0089/leetgitsync)
+
+### 02. SettleWise AI
+
+[![Project](https://img.shields.io/badge/FULL--STACK%20APPLICATION-SettleWise%20AI-B99AD9?style=flat-square)](https://settlewise-ai.vercel.app)
+
+**Making payment settlement reconciliation easier to understand.**
+
+A full-stack reconciliation application that compares payment records and identifies transaction discrepancies.
+
+- React and Vite frontend.
+- Node.js and Express backend.
+- SQLite database.
+- Razorpay settlement API adapter with CSV fallback.
+- Deterministic sample dataset for reconciliation testing.
+
+[LIVE DEMO →](https://settlewise-ai.vercel.app)
+
+## 04 — TECHNOLOGY TOOLKIT
+
+**LANGUAGES**
+
+![Java](https://img.shields.io/badge/Java-252525?style=flat-square&logo=openjdk&logoColor=E8A36B)
+![JavaScript](https://img.shields.io/badge/JavaScript-252525?style=flat-square&logo=javascript&logoColor=F0D36B)
+![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=8DB7E8)
+
+**FRONTEND**
+
+![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=75D0D0)
+![HTML5](https://img.shields.io/badge/HTML5-252525?style=flat-square&logo=html5&logoColor=E58A63)
+![CSS3](https://img.shields.io/badge/CSS3-252525?style=flat-square&logo=css3&logoColor=78A8DE)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-252525?style=flat-square&logo=tailwindcss&logoColor=70C8C5)
+
+**BACKEND & DATABASES**
+
+![Node.js](https://img.shields.io/badge/Node.js-252525?style=flat-square&logo=nodedotjs&logoColor=8BCB91)
+![Express](https://img.shields.io/badge/Express-252525?style=flat-square&logo=express&logoColor=F0E8D8)
+![MongoDB](https://img.shields.io/badge/MongoDB-252525?style=flat-square&logo=mongodb&logoColor=83C995)
+![SQLite](https://img.shields.io/badge/SQLite-252525?style=flat-square&logo=sqlite&logoColor=8DB7E8)
+![MySQL](https://img.shields.io/badge/MySQL-252525?style=flat-square&logo=mysql&logoColor=7CAED6)
+
+**CLOUD & DEVELOPMENT TOOLS**
+
+![AWS](https://img.shields.io/badge/AWS-252525?style=flat-square&logo=amazonwebservices&logoColor=E8A95E)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-252525?style=flat-square&logo=googlecloud&logoColor=8DB7E8)
+![Git](https://img.shields.io/badge/Git-252525?style=flat-square&logo=git&logoColor=E58A63)
+![GitHub](https://img.shields.io/badge/GitHub-252525?style=flat-square&logo=github&logoColor=F0E8D8)
+
+## 05 — OPEN SOURCE & COMMUNITY
+
+- GirlScript Summer of Code — Selected, 2025.
+- GirlScript Summer of Code — Selected, 2026.
+- CPBYTE — Member.
+
+## 06 — CERTIFICATIONS
+
+- AWS Certified Cloud Practitioner.
+- Google Cloud — Prepare Data for ML APIs.
+- Google Cloud — Automate Data Capture at Scale with Document AI.
+
+## 07 — GITHUB STATISTICS
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/visheshagarwal0089/visheshagarwal0089/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/visheshagarwal0089/visheshagarwal0089/output/github-snake.svg" />
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/visheshagarwal0089/visheshagarwal0089/output/github-snake-dark.svg" width="100%"/>
-  </picture>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=VisheshAgarwal0089&show_icons=true&hide_border=true&bg_color=00000000&title_color=C6A66B&text_color=9CA3AF&icon_color=B99AD9" />
+
+<img width="49%" src="https://streak-stats.demolab.com?user=VisheshAgarwal0089&hide_border=true&background=00000000&ring=C6A66B&fire=D99A68&currStreakLabel=C6A66B&sideLabels=9CA3AF&currStreakNum=F0E8D8&sideNums=F0E8D8&dates=8B9AAE" />
+
+</div>
+
+## 08 — CONTRIBUTION ACTIVITY
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VisheshAgarwal0089/VisheshAgarwal0089/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VisheshAgarwal0089/VisheshAgarwal0089/output/github-snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/VisheshAgarwal0089/VisheshAgarwal0089/output/github-snake.svg" width="100%">
+</picture>
+
 </div>
 
 ---
 
-## 📊 GitHub Analytics
-
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=visheshagarwal0089&show_icons=true&bg_color=0D1117&title_color=C4B5FD&text_color=C9D1D9&icon_color=8B5CF6&border_color=30363D&hide_border=false&rank_icon=github&include_all_commits=true"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=visheshagarwal0089&layout=compact&bg_color=0D1117&title_color=C4B5FD&text_color=C9D1D9&border_color=30363D&hide_border=false&langs_count=8"/>
+### BUILD WITH CURIOSITY. ENGINEER WITH INTENT.
 
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=visheshagarwal0089&background=0D1117&border=30363D&stroke=8B5CF6&ring=8B5CF6&fire=C4B5FD&currStreakLabel=C4B5FD&sideLabels=C9D1D9&currStreakNum=F0F6FC&sideNums=F0F6FC&dates=8B949E"/>
-
-</div>
-
----
-
-
-
-## 💻 Tech Stack
-
-### 🌐 Frontend
-`JavaScript` · `React` · `HTML5` · `CSS3` · `Tailwind CSS` · `Bootstrap` · `Vite`
-
-### ⚙️ Backend & APIs
-`Node.js` · `Express.js` · `Java` · `REST APIs` · `JWT`
-
-### 🗄️ Databases & Data
-`MongoDB` · `SQLite` · `MySQL` · `Pandas` · `NumPy`
-
-### 🤖 AI & Machine Learning
-`Python` · `scikit-learn` · `TensorFlow` · `PyTorch` · `Keras` · `Matplotlib`
-
-### ☁️ Cloud & Infrastructure
-`AWS` · `Google Cloud` · `Linux` · `Vercel` · `Railway` · `Firebase` · `Docker`
-
-### 🛠️ Developer Tooling
-`Git` · `GitHub` · `GitHub Actions` · `Postman` · `Power BI` · `Excel`
-
----
-
-## 💬 Dev Quote of the Day
-
-<div align="center">
-
-![](https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight&border=true)
-
-</div>
-
----
-
-## 🤝 Let's Connect & Build Something
-
-<div align="center">
-
-If you have an interesting idea, a project to collaborate on, or just want to say hi — my inbox is always open!
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/visheshagarwal0089)
-[![Gmail](https://img.shields.io/badge/Drop%20a%20Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aga.v.0089@gmail.com)
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:312E81,52:161B22,100:0D1117&height=130&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=C4B5FD&fontAlignY=65&animation=fadeIn" width="100%"/>
+<sub>Always exploring. Always building.</sub>
 
 </div>
