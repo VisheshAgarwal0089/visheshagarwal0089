@@ -133,6 +133,7 @@ A full-stack reconciliation application that compares payment records and identi
 ## 06 — CERTIFICATIONS
 
 - AWS Certified Cloud Practitioner.
+- AWS Certified Data Engineering Associate.
 - Google Cloud — Prepare Data for ML APIs.
 - Google Cloud — Automate Data Capture at Scale with Document AI.
 
